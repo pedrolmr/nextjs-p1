@@ -1,10 +1,10 @@
 import Link from 'next/link';
-const index = () => (
+const about = () => (
     <div>
-        <h1>Welcome</h1>
+        <h1>About</h1>
         <Link href="/"><a>Home</a></Link>
         <Link href="/about"><a>About</a></Link>
-        <p>this is the homepage</p>
+        <p>I'm a programmer</p>
     </div>
 );
-export default index;
+export default about;
