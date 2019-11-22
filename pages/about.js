@@ -1,10 +1,8 @@
-import Link from 'next/link';
+import Layout from '../components/Layout';
+
 const about = () => (
-    <div>
-        <h1>About</h1>
-        <Link href="/"><a>Home</a></Link>
-        <Link href="/about"><a>About</a></Link>
+    <Layout title="About me">
         <p>I'm a programmer</p>
-    </div>
+    </Layout>
 );
 export default about;
